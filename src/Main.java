@@ -4,6 +4,6 @@ public class Main {
         double weight = 80;
         double height = 1.85;
         double imt = service.calculate(weight, height);
-        System.out.println(imt);
+        System.out.printf("%.1f", imt);
     }
 }
